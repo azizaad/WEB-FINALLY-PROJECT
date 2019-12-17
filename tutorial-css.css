@@ -1,0 +1,40 @@
+#leftColumn { /*This is used for content that is under the menu, this style is for background color, font color, width, and sentence position.*/
+    background-color: #1abc9c;
+    width: 100%;
+    color: white;
+    text-align: inherit;
+}
+
+.blog { /*this is used for content, this style is for creating content in the middle of the page*/
+	float:center;
+}
+ 
+.conteudo { /*This is used by content in blogs, this style for width, distance between content and menus, margins, background color, border thickness and border color, and for box shadow colors*/
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.conteudo .post-info{ /*this is used by content in conteudo, this style is used to create sentences on the right of the screen.*/
+    text-align: right;
+}
+ 
+.conteudo img { /*This is used by images that are in conteudo, this style is used for maximum and minimum image widths and margins for images.*/
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+ 
+.conteudo h1 { /*This is used by h1 in conteudo, this style is used for padding, margins, font weight, font color, and font style*/
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+

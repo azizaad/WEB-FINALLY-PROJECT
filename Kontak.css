@@ -1,0 +1,53 @@
+.content { /* div content 1, parents*/
+	float:center;
+	margin-top: 50px;
+}
+.content2 { /* div for Contact, child*/
+	width:300px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+}
+ 
+.content2 img {/* for logo telephone, grandchild from div .content */
+	width: 70px;
+	margin:0 0 25px -25px;
+    float: left
+}
+.content2 img { /* for Logo instagram, grandchild from div .content*/
+    width: 50px;
+    margin: 0 0 25px-25px;
+    float: left
+}
+.content2 h1 { /* to style the writing of  "OUR CONTACT"*/
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: product sans;
+}
+
+.content2 p:last-child {
+	margin: 0;
+}
+ 
+.content2 .continue-lendo {/* to style the writing of "Kumpulan berita-berita yang beranfaat"*/
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+ 
+.content2 .continue-lendo:hover {/* to stlye the harder ,Home, Login Kontak*/
+	margin-left:10px;
+}
+.page { /*to make the page stay 100% without having to roll*/
+    widows: inherit
+}
+.
+    
+}
+
+
+

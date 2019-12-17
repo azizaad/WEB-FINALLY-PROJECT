@@ -1,0 +1,60 @@
+body { /* untuk body */
+	background: #eee;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+	
+
+header{ /* header parent */
+	text-align: center;
+	color: #232323;
+}
+
+header .judul{ /* header judul */
+	font-size: 17pt;
+}
+
+header .deskripsi{ /* header deskripsi */
+	font-size: 11pt;
+}
+
+
+
+.wrap { /* div persegi panjang menu */
+	width: 950px;
+	margin:25px auto;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 950px;
+	margin:0 0 0;
+	background: #1abc9c;
+}
+
+nav.menu ul li { /* pengaturan menu sebelah kiri */
+	margin:0;
+	float:left;
+}
+
+nav.menu ul a { /* pengaturan kotak menu */
+	padding:25px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover { /* dekorasi menu efek garis bawah */
+	text-decoration: underline;
+	background:#16a085;
+}
+
